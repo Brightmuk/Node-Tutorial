@@ -28,5 +28,11 @@ con.connect(function(err) {
     //Use of wildcards
     //----------------
     //SELECT * FROM customers WHERE address LIKE 'S%':return all addresses starting with s****
+
+    //Order the result into an order
+    //------------------------------
+    //SELECT * FROM customers ORDER BY name DESC 
+    //SELECT * FROM customers ORDER BY name 'for ascending'
+
   });
 });
